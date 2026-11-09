@@ -20,7 +20,7 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: '8.2.2'   # 与 AGP 8.2.2 匹配
+          gradle-version: '8.2'   # 与 AGP 8.2.2 匹配
 
       - name: Write local.properties
         run: echo "sdk.dir=$ANDROID_HOME" > local.properties
